@@ -2,7 +2,8 @@
 
 body{
     width: 550px;
-    height: 550px;
+    min-width: 550px;
+    min-height: 550px;
     margin: 0 auto;
     padding: 0;
     background: #282828;
@@ -64,9 +65,8 @@ button{
 
 #color-palette{
     background: white;
-    height: 32rem;
     display: grid;
-    grid-template: 1fr 50px/ repeat(5, 110px);
+    grid-template: 520px 3.25rem/ repeat(5, 20%);
     text-align: center;
 }
 
@@ -76,7 +76,6 @@ button{
 .color4,
 .color5{
     grid-row: 1/2;
-    position: relative;
 }
 
 .hex1,
