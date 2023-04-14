@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="sel-pane" class="sel-pane">
+            <input id="seed-color" type="color">
+            <select id="color-scheme-mode" name="color-scheme-mode">
+                <option value="Monochrome">Monochrome</option>
+                <option value="Monochrome-dark">Monochrome-dark</option>
+                <option value="Monochrome-light">Monochrome-light</option>
+                <option value="Analogic">Analogic</option>
+                <option value="Analogic-complement">Analogic-complement</option>
+                <option value="Complement">Complement</option>
+                <option value="Triad">Triad</option>
+            </select>
+            <button id="get-colors-btn">Get color scheme</button>
+        </div>
+        <div id="color-palette">
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
